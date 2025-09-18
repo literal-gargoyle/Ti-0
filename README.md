@@ -64,6 +64,7 @@ Modify the device path to match your serial device (for example /dev/ttyUSB0, /d
 
 ## Quick start (Calculator)
 
+- !!**Make sure that your calculator is running OS version 5.4 or earlier. If you have a calculator with the latest, or a version newer than specified, you need to install [arTIFICE](https://yvantt.github.io/arTIfiCE/) on your calculator.**!!
 - Build or copy the calculator-side program to your TI-84 CE using your preferred TI transfer tools (TI-Connect CE, Cervantes, or community toolchains). Typical file formats are `.8xp` or calculator-archive packages.
 - !!**Make sure your calulator is fully charged during this process.**!!
 - Start the program on the calculator and follow on-screen instructions to pair with the Pi (USB or serial). See `source/ti-84/README.md` for build and install specifics.
