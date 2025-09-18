@@ -1,0 +1,18 @@
+# TI-0 requirements
+
+# Essential
+pyserial>=3.5,<5         # Serial communication with AT-capable modem (pyserial)
+
+# Convenience / config
+python-dotenv>=0.21.0,<1 # Optional: load .env files for configuration
+requests>=2.28.0,<3      # Optional: call external web APIs (email gateways, webhooks)
+
+# GPIO / hardware (optional - only required if using Pi GPIO features)
+gpiozero>=2.0.0,<3        # High-level GPIO helpers (recommended on Raspberry Pi)
+RPi.GPIO>=0.7.0,<1        # Low-level GPIO library (alternative to gpiozero)
+
+# Notes:
+# - Install with: python3 -m pip install -r requirements.txt
+# - If you are not running on a Raspberry Pi, skip gpiozero / RPi.GPIO or install
+#   with platform-specific wheels. On Raspberry Pi OS these packages are available
+#   via pip; you may need build tools for some platforms.
